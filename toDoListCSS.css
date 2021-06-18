@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Amatic SC', cursive;
+
+    background: rgb(51, 51, 51);
+}
+
+.container{
+    background: rgb(114, 255, 236);
+    height: 15em;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    max-width: 100%;
+    flex-direction: column;
+}
+.container h2{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+.col-1{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+    flex-basis: 10%;
+    width: 30%;
+}
+.col-1 input{
+    padding: 0 20px;
+    margin: 0px;
+    border: none;
+    border-radius: 0;
+    width: 85%;
+
+    border-style: none;
+    font-size: 1.2em;
+
+    color: rgb(0, 136, 118);
+}
+.col-1 span{
+    background: rgb(241, 241, 241);
+    font-size: 2.5em;
+    padding: 0 15px;
+    margin: 0;
+
+    width: 15%;
+
+    text-align: center;
+}
+.col-1 span:hover{
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+
+
+
+
+.container-2{
+    position: relative;
+}
+.col-2{
+    margin: 0px;
+    padding: 0px;
+}
+.col-2 ul{
+    position: absolute;
+    left: 44%;
+    margin-top: 50px;
+}
+.col-2 ul li{
+    font-size: 3em;
+    color: rgb(114, 255, 236);
+}
+.col-2 ul li span{
+    margin-left: 50px;
+    font-family: 'arial';
+    font-size: 0.8em;
+    color: red;
+
+    cursor: pointer;
+}
+.col-2 ul li span:hover{
+    font-size: 0.9em;
+}
